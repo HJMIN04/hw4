@@ -9,7 +9,7 @@ int main() {
         cout << " can't open file\n";
         return -1;
     }
-    float t, dt, T, PI = 3.141592;
+    float t, dt, T;
     t = 0.0;
     dt = 1. / 24.;
     T = 8;
